@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+
+    android:layout_height="90dp">
+
+    <TextView
+        android:id="@+id/detail_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="Category"/>
+
+    <TextView
+        android:id="@+id/detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="Name"/>
+
+    <TextView
+        android:id="@+id/detail_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@+id/detail_name"
+        android:layout_centerHorizontal="true"
+       android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="11/22/1111"/>
+
+    <TextView
+        android:id="@+id/detail_cert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_name"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:paddingBottom="5dp"
+        android:text="Certificate"/>
+
+
+
+    <Button
+        android:id="@+id/detail_btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:textColor="@color/white"
+        android:background="@color/btn_color"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/detail_date"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

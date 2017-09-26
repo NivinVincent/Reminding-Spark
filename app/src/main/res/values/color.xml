@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar">#d92439e8</color>
+    <color name="background">#8586a4d4</color>
+    <color name="et_mid_color">#f112abff</color>
+    <color name="btn_color">#e73d3ddf</color>
+    <color name="tools">#ff3856ef</color>
+    <color name="spinner">#ff314cb9</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+</resources>

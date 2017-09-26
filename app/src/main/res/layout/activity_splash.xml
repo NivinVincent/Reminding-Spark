@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:nivin="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    nivin:layout_width="match_parent"
+    nivin:layout_height="match_parent"
+    nivin:background="@drawable/images"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        nivin:layout_width="200dp"
+        nivin:layout_height="200dp"
+        nivin:layout_centerHorizontal="true"
+        nivin:layout_centerVertical="true"
+        nivin:background="@drawable/eagle"
+        nivin:id="@+id/spl_img" />
+
+    <TextView
+        nivin:id="@+id/spl_tv"
+        nivin:layout_width="wrap_content"
+        nivin:layout_height="wrap_content"
+        nivin:layout_below="@+id/spl_img"
+        nivin:layout_centerHorizontal="true"
+
+        nivin:textSize="25dp"
+        nivin:textColor="@color/white"
+        nivin:textStyle="bold"
+        nivin:padding="5dp"
+        nivin:text="Reminding Spark"/>
+
+
+</RelativeLayout>
