@@ -8,7 +8,34 @@
 <table>
   <tr>
     <td>
-      <img src="Screen-Shots/1.png" width="150" height="200">
+      <img src="Screen-Shots/1.png" width="200" height="300">
+      <h4><i>Splash Screen</i></h4>
+    </td>
+    <td>
+      <img src="Screen-Shots/2.png" width="200" height="300">
+      <h4><i>Home Screen</i></h4>
+    </td>
+    <td>
+      <img src="Screen-Shots/3.png" width="200" height="300">
+      <h4><i>Category Selection</i></h4>
+    </td>
+    <td>
+      <img src="Screen-Shots/4.png" width="200" height="300">
+      <h4><i>Birthday Screen</i></h4>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Screen-Shots/5.png" width="200" height="300">
+      <h4><i>Vehicle Screen</i></h4>
+    </td>
+    <td>
+      <img src="Screen-Shots/6.png" width="200" height="300">
+      <h4><i>View Details</i></h4>
+    </td>
+    <td>
+      <img src="Screen-Shots/7.png" width="200" height="300">
+      <h4><i>Notification</i></h4>
     </td>
   </tr>
 </table>
